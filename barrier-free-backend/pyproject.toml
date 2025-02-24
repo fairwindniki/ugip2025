@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "barrier-free-backend"
+version = "0.1.0"
+description = ""
+authors = ["fairwindniki <148745287+fairwindniki@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask = "^3.1.0"
+flask-cors = "^5.0.1"
+requests = "^2.32.3"
+pandas = "^2.2.3"
+pytesseract = "^0.3.13"
+types-flask-cors = "^5.0.0.20240902"
+python-dotenv = "^1.0.1"
+
+
+[tool.poetry.group.dev.dependencies]
+python-lsp-server = "^1.12.2"
+types-requests = "^2.32.0.20241016"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

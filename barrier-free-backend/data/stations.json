@@ -1,0 +1,23 @@
+[
+    {
+      "station_id": "shinjuku",
+      "station_name": "新宿",
+      "lat": 35.6895,
+      "lng": 139.6917,
+      "entrances": [
+        {"entrance_id": "east1", "lat": 35.6900, "lng": 139.6920, "barrier_free": true, "details": "エレベーターあり"},
+        {"entrance_id": "west2", "lat": 35.6880, "lng": 139.6905, "barrier_free": false, "details": "階段のみ"}
+      ]
+    },
+    {
+      "station_id": "tokyo",
+      "station_name": "東京",
+      "lat": 35.6812,
+      "lng": 139.7671,
+      "entrances": [
+        {"entrance_id": "north1", "lat": 35.6825, "lng": 139.7681, "barrier_free": true, "details": "スロープあり"},
+        {"entrance_id": "south2", "lat": 35.6801, "lng": 139.7650, "barrier_free": false, "details": "階段のみ"}
+      ]
+    }
+  ]
+  
