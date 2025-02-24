@@ -1,1 +1,15 @@
 /.mypy_cache
+
+# 共通（VSCode, OS関連）
+.vscode/
+.DS_Store
+.env
+
+# フロントエンド（React）
+frontend/node_modules/
+frontend/dist/
+
+# バックエンド（Flask）
+backend/__pycache__/
+backend/venv/
+backend/poetry.lock
